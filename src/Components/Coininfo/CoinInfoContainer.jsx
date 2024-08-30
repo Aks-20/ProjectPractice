@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { fetchCoinData } from "../../Services/fetchCoinData.js";
 import { useQuery } from "react-query";
-import currencyStore from '../../Stores/Stores.js';
+import currencyStore from '../../Stores/Stores';
 import { useNavigate } from "react-router-dom";
-import PageLoader from "../PageLoader/PageLoader.jsx";
+import PageLoader from "../PageLoader/PageLoader";
 
 function CoinTable() {
     const { currency } = currencyStore();

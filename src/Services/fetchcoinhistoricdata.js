@@ -1,4 +1,4 @@
-import axiosInstance from "../Helpers/AxiosInstance";
+import axiosInstance from "../Helpers/AxiosInstance.js";
 
 export async function fetchCoinHistoricData(id, interval, days = 7, currency = 'usd') {
     try {

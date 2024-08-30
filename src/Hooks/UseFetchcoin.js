@@ -1,6 +1,6 @@
 import { useQuery } from "react-query";
-import { fetchCoinDetails } from "../Services/fetchcoindetails";
-import currencyStore from '../state/store';
+import { fetchCoinDetails } from "../Services/fetchcoindetails.js";
+import currencyStore from '../Stores/Stores.js';
 function useFetchCoin(coinId) {
     
     const { currency } = currencyStore();

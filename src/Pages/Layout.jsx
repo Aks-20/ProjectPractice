@@ -1,14 +1,13 @@
-import Banner from "../Components/Banner/Banner";
-import CoinTable from "../Components/CoinTable/CoinTable";
+import { Outlet } from 'react-router-dom';
+import Navbar from '../Components/NavBar/NavBar.jsx'
 
-function Home() {
+function MainLayout() {
     return (
         <>
-            
-            <Banner />
-            <CoinTable />
+            <Navbar /> {/* This navbar is the shared ui we want to across pages */}
+            <Outlet /> {/* The actual page which which will be rendered along with navbar */}
         </>
-    );
+    )
 }
 
-export default Home;
+export default MainLayout;
