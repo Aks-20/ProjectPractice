@@ -6,4 +6,4 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-  Daisy UI is a utility-first CSS component library that enhances 
+  Daisy UI is a utility-first CSS component library that enhances Tailwind CSS by providing pre-designed UI components. It simplifies the process of building user interfaces by offering a set of ready-to-use components.
